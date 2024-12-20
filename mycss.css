@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Michroma&display=swap);
+
+body {
+  font-family: Michroma, serif;
+  background: linear-gradient(90deg, #1e0eaf 0%, #050000 100%);
+}
+
+p {
+  color: rgb(14, 170, 170);
+}
+
+.nav-link {
+  color: rgb(14, 126, 29);
+}
+
+.navbar-nav .nav-link.active {
+  color: rgb(14, 170, 170);
+}
+
+.navbar-brand img {
+  width: 40px;
+}
+
+.navbar-toggler {
+  background-color: rgba(17, 110, 5, 0.815);
+}
+
+.navvbar-toggler-icon {
+  background-color: rgba(8, 168, 107, 0);
+}
+
+.sidebar {
+  color: rgb(14, 170, 170);
+  background: linear-gradient(270deg, #1e0eaf 0%, #050000 100%);
+}
+
+.card {
+  background: linear-gradient(270deg, #1e0eaf 0%, #050000 100%);
+  color: rgb(14, 170, 170);
+}
+
+.card a {
+  text-decoration: none;
+  color: rgb(14, 170, 170);
+}
+
+.slide-text,
+.footer-text {
+  color: rgb(14, 170, 170);
+  margin: auto auto;
+}
+
+footer,
+.btn-outline-primary {
+  background: linear-gradient(270deg, #1e0eaf 0%, #050000 100%);
+}
+
+.media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-anim {
+  animation: coll 5s ease 0s 100 normal forwards;
+}
+
+@keyframes coll {
+
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 755px) {
+  .carousel-indicators {
+    display: none;
+  }
+}
